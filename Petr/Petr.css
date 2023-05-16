@@ -1,0 +1,48 @@
+body,
+html {
+  height: 100%;
+  background-color: #e0e0e0;
+  margin: 0%;
+}
+
+.content {
+  background-color: aliceblue;
+  margin: 5% auto;
+  width: 90%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sliderborder {
+  display: flex;
+  background-color: aqua;
+  width: 85%;
+  height: 75%;
+  justify-content: space-around;
+}
+.slider {
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+}
+.sliderline {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  position: relative;
+  transition: all 1s;
+}
+
+.buttonleft {
+  background-color: black;
+  width: 10%;
+  height: 10%;
+}
+
+.buttonright {
+  background-color: black;
+  width: 10%;
+  height: 10%;
+}
